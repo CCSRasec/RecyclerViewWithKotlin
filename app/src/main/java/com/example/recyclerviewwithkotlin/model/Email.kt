@@ -30,6 +30,7 @@ fun fakeEmails() : MutableList<Email> = mutableListOf(
         preview = "Olá amigo, você precisa ver esse site"
         date = "20 Jun"
         stared = false
+        unread = true
     },
 
     email {
@@ -37,7 +38,8 @@ fun fakeEmails() : MutableList<Email> = mutableListOf(
         subject = "Veja nossas três dicas principais para você conseguir"
         preview = "Olá amigo, você precisa ver esse site"
         date = "20 Jun"
-        stared = false
+        stared = true
+        unread = false
     },
 
     email {
@@ -46,6 +48,7 @@ fun fakeEmails() : MutableList<Email> = mutableListOf(
         preview = "Olá amigo, você precisa ver esse site"
         date = "20 Jun"
         stared = false
+        unread = true
     },
 
     email {
@@ -54,6 +57,7 @@ fun fakeEmails() : MutableList<Email> = mutableListOf(
         preview = "Olá amigo, você precisa ver esse site"
         date = "20 Jun"
         stared = false
+        unread = false
     },
 
     email {
@@ -61,7 +65,8 @@ fun fakeEmails() : MutableList<Email> = mutableListOf(
         subject = "Veja nossas três dicas principais para você conseguir"
         preview = "Olá amigo, você precisa ver esse site"
         date = "20 Jun"
-        stared = false
+        stared = true
+        unread = true
     },
 
     email {
@@ -70,6 +75,7 @@ fun fakeEmails() : MutableList<Email> = mutableListOf(
         preview = "Olá amigo, você precisa ver esse site"
         date = "20 Jun"
         stared = false
+        unread = false
     }
 
 )
