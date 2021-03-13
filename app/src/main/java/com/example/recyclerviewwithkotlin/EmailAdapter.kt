@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerviewwithkotlin.model.Email
 import kotlinx.android.synthetic.main.email_item.view.*
 
-class EmailAdapter(private val emails: MutableList<Email>) :
+class EmailAdapter(val emails: MutableList<Email>) :
     RecyclerView.Adapter<EmailAdapter.EmailViewHolder>() {
     override fun onCreateViewHolder(
         parent: ViewGroup,
